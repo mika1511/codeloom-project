@@ -3,7 +3,7 @@ import { Text, View, StyleSheet, Button, TouchableOpacity } from "react-native";
 import { CameraView, Camera } from "expo-camera/next";
 import { getData } from "../endpoints";
 
-export default function Scan() {
+export default function Scan({navigation}) {
   const [hasPermission, setHasPermission] = useState(null);
   const [scanned, setScanned] = useState(false);
 

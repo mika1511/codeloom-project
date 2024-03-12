@@ -66,7 +66,7 @@ export default function Map({}) {
                   latitude: 21.160351,
                   longitude: 81.3360273,
                 }}
-                title="checkpoint"
+                title="checkpoint B"
                 pinColor="green"
               />
               <Marker
@@ -74,7 +74,7 @@ export default function Map({}) {
                   latitude: 21.217997,
                   longitude: 81.318398,
                 }}
-                title="checkpoint"
+                title="checkpoint A"
                 pinColor="green"
               />
               <Marker
@@ -82,7 +82,7 @@ export default function Map({}) {
                   latitude: 21.218401,
                   longitude: 81.309571,
                 }}
-                title="checkpoint"
+                title="checkpoint C"
                 pinColor="green"
               />
             </MapView>
