@@ -20,10 +20,7 @@ export default function Scan() {
     // const res =  await getData();
     // res = res.json();
     setScanned(true);
-    alert(`
-    name: Bhumika,
-    address: ispaat nagar , 
-    number of family number : 4`);
+    alert(data);
   };
 
   if (hasPermission === null) {

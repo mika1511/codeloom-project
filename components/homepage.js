@@ -11,7 +11,7 @@ export default function HomeScreen({navigation}) {
         <View style={styles.adContainer}>
           <Image
             style={styles.img}
-            source={require("../assets copy/images/Green.jpg")}
+            source={require("../assets/images/Green.jpg")}
           />
         </View>
       </View>
@@ -24,7 +24,7 @@ export default function HomeScreen({navigation}) {
                 <View style={styles.imgContainer}>
                   <Image
                     style={styles.img}
-                    source={require("../assets copy/images/base_icon.png")}
+                    source={require("../assets/images/base_icon.png")}
                   />
                 </View>
                 <View style={styles.textCont}>
@@ -37,7 +37,7 @@ export default function HomeScreen({navigation}) {
                 <View style={styles.imgContainer1}>
                   <Image
                     style={styles.img1}
-                    source={require("../assets copy/images/qrcode.png")}
+                    source={require("../assets/images/qrcode.png")}
                   />
                 </View>
                 <View style={styles.textCont}>
@@ -50,7 +50,7 @@ export default function HomeScreen({navigation}) {
                 <View style={styles.imgContainer2}>
                   <Image
                     style={styles.img2}
-                    source={require("../assets copy/images/person_icon.png")}
+                    source={require("../assets/images/person_icon.png")}
                   />
                 </View>
                 <View style={styles.textCont}>
